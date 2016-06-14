@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dbace25d-551e-4199-b78b-9f34349ec7af" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2016-6/zoo-coffe/css/style.css" afterPath="$PROJECT_DIR$/2016-6/zoo-coffe/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2016-6/zoo-coffe/index.html" afterPath="$PROJECT_DIR$/2016-6/zoo-coffe/index.html" />
     </list>
     <ignored path="2016-6-8.iws" />
@@ -38,9 +37,11 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2016-6/zoo-coffe/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="477" column="30" selection-start-line="477" selection-start-column="30" selection-end-line="477" selection-end-column="30" />
-              <folding />
+            <state relative-caret-position="113">
+              <caret line="440" column="25" selection-start-line="440" selection-start-column="25" selection-end-line="440" selection-end-column="25" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#7;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -318,7 +319,7 @@
       <updated>1465354175786</updated>
       <workItem from="1465354181185" duration="12439000" />
       <workItem from="1465372582274" duration="7539000" />
-      <workItem from="1465867456976" duration="7329000" />
+      <workItem from="1465867456976" duration="7426000" />
     </task>
     <task id="LOCAL-00001" summary="面包房完成">
       <created>1465869347530</created>
@@ -341,11 +342,18 @@
       <option name="project" value="LOCAL" />
       <updated>1465874962513</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="zoo-coffe 修改字体">
+      <created>1465875390738</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1465875390738</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27307000" />
+    <option name="totallyTimeSpent" value="27404000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -632,9 +640,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2016-6/zoo-coffe/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="477" column="30" selection-start-line="477" selection-start-column="30" selection-end-line="477" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="113">
+          <caret line="440" column="25" selection-start-line="440" selection-start-column="25" selection-end-line="440" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#7;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
