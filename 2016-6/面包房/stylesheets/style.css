@@ -91,7 +91,6 @@ figcaption{
 
 address{
   background-color:#E8D4AF;
-
 }
 
 .information{
@@ -320,4 +319,18 @@ float:left;
 /**============================toolbar==================================**/
 .toolbar{
   display: none;
+}
+
+#product-class .active{
+  background-color:#e5540e;
+  border-radius: 40px;
+}
+#product-class .active a {
+  background-color: inherit;
+  border-radius: inherit;
+}
+
+
+.carousel-indicators{
+  margin-bottom:0;
 }

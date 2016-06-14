@@ -28,17 +28,50 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li><a href="#">首页 </a></li>
-                <li class="active"><a href="#">产品中心</a></li>
-                <li><a href="#">新闻中心</a></li>
-                <li><a href="#">关于我们 </a></li>
-                <li><a href="#">联系我们</a></li>
+                <li class="active"><a href="product-center.html" class="menu">产品中心</a></li>
+                <li><a href="news-center.html" class="menu">新闻中心</a></li>
+                <li><a href="about-us.html" class="menu">关于我们 </a></li>
+                <li><a href="contact-us.html" class="menu">联系我们</a></li>
             </ul>
         </div>
     </div>
 </nav>
 
+<!--图片轮播-->
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    </ol>
 
-<img class="product-banner" src="images/index/main-banner.png">
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img src="images/index/main-banner.png" alt="...">
+
+            <div class="carousel-caption">
+            </div>
+        </div>
+        <div class="item">
+            <img src="images/index/main-banner.png" alt="...">
+            <div class="carousel-caption">
+            </div>
+        </div>
+        <div class="item">
+            <img src="images/index/main-banner.png" alt="...">
+            <div class="carousel-caption">
+            </div>
+        </div>
+        <div class="item">
+            <img src="images/index/main-banner.png" alt="...">
+            <div class="carousel-caption">
+            </div>
+        </div>
+
+    </div>
+</div>
 
 
 <!--Product Series-->
@@ -50,45 +83,131 @@
 
 
 
-<!---->
-<div class="container index-menu">
-    <div class="masthead">
-<nav>
-    <ul class="nav nav-justified">
-        <li class="active"><a href="#">面包</a></li>
-        <li><a href="#">蛋糕</a></li>
-        <li><a href="#">饼点</a></li>
-        <li><a href="#">礼盒</a></li>
-        <li><a href="#">西点</a></li>
-    </ul>
-</nav>
+<ul id="product-class" class="nav nav-tabs center-block">
+    <li class="active">
+        <a href="#mianbao" data-toggle="tab">
+            面包
+        </a>
+    </li>
+    <li><a href="#dangao" data-toggle="tab">蛋糕</a></li>
+    <li><a href="#bingdian" data-toggle="tab">饼点</a></li>
+    <li><a href="#lihe" data-toggle="tab">礼盒</a></li>
+    <li><a href="#xidian" data-toggle="tab">西点</a></li>
+</ul>
+
+<div id="myTabContent" class="tab-content">
+    <div class="tab-pane fade in active" id="mianbao">
+        <div class="row index-product-list">
+            <div class="col-md-2 col-xs-0 empty"></div>
+            <div class="col-md-2 col-xs-6 index-product-service-item">
+                <img class="product-banner" src="images/index/banner1.png">
+                <div class="decoration-line"></div>
+                <div class="decoration-description" >蓝莓轻乳拿破仑</div>
+            </div>
+            <div class="col-md-2 col-xs-6 index-product-service-item">
+                <img class="product-banner" src="images/index/banner2.png">
+                <div class="decoration-line"></div>
+                <div class="decoration-description">柠*漾</div>
+            </div>
+            <div class="col-md-2 col-xs-6 index-product-service-item">
+                <img class="product-banner" src="images/index/banner3.png">
+                <div class="decoration-line"></div>
+                <div class="decoration-description" >黑森林拿破仑</div>
+            </div>
+            <div class="col-md-2 col-xs-6 index-product-service-item " >
+                <img class="product-banner" src="images/index/banner4.png">
+                <div class="decoration-line"></div>
+                <div class="decoration-description" >鲜莓印雪</div>
+            </div>
+            <div class="col-md-2 col-xs-0 empty"></div>
+        </div>
+
+    </div>
+    <div class="tab-pane fade" id="dangao">
+        <div class="row index-product-list">
+            <div class="col-md-2 col-xs-0 empty"></div>
+            <div class="col-md-2 col-xs-6 index-product-service-item">
+                <img class="product-banner" src="images/index/banner1.png">
+                <div class="decoration-line"></div>
+                <div class="decoration-description" >蓝莓轻乳拿破仑</div>
+            </div>
+            <div class="col-md-2 col-xs-6 index-product-service-item">
+                <img class="product-banner" src="images/index/banner2.png">
+                <div class="decoration-line"></div>
+                <div class="decoration-description">柠*漾</div>
+            </div>
+            <div class="col-md-2 col-xs-6 index-product-service-item">
+                <img class="product-banner" src="images/index/banner3.png">
+                <div class="decoration-line"></div>
+                <div class="decoration-description" >黑森林拿破仑</div>
+            </div>
+            <div class="col-md-2 col-xs-6 index-product-service-item">
+                <img class="product-banner" src="images/index/banner4.png">
+                <div class="decoration-line"></div>
+                <div class="decoration-description" >鲜莓印雪</div>
+            </div>
+            <div class="col-md-2 col-xs-0 empty"></div>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="lihe">
+        <div class="row index-product-list">
+            <div class="col-md-2 col-xs-0 empty"></div>
+            <div class="col-md-2 col-xs-6 index-product-service-item">
+                <img class="product-banner" src="images/index/banner1.png">
+                <div class="decoration-line"></div>
+                <div class="decoration-description" >蓝莓轻乳拿破仑</div>
+            </div>
+            <div class="col-md-2 col-xs-6 index-product-service-item">
+                <img class="product-banner" src="images/index/banner2.png">
+                <div class="decoration-line"></div>
+                <div class="decoration-description">柠*漾</div>
+            </div>
+            <div class="col-md-2 col-xs-6 index-product-service-item">
+                <img class="product-banner" src="images/index/banner3.png">
+                <div class="decoration-line"></div>
+                <div class="decoration-description" >黑森林拿破仑</div>
+            </div>
+            <div class="col-md-2 col-xs-6 index-product-service-item">
+                <img class="product-banner" src="images/index/banner4.png">
+                <div class="decoration-line"></div>
+                <div class="decoration-description" >鲜莓印雪</div>
+            </div>
+            <div class="col-md-2 col-xs-0 empty"></div>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="xidian">
+        <div class="row index-product-list">
+            <div class="col-md-2 col-xs-0 empty"></div>
+            <div class="col-md-2 col-xs-6 index-product-service-item">
+                <img class="product-banner" src="images/index/banner1.png">
+                <div class="decoration-line"></div>
+                <div class="decoration-description" >蓝莓轻乳拿破仑</div>
+            </div>
+            <div class="col-md-2 col-xs-6 index-product-service-item">
+                <img class="product-banner" src="images/index/banner2.png">
+                <div class="decoration-line"></div>
+                <div class="decoration-description">柠*漾</div>
+            </div>
+            <div class="col-md-2 col-xs-6 index-product-service-item">
+                <img class="product-banner" src="images/index/banner3.png">
+                <div class="decoration-line"></div>
+                <div class="decoration-description" >黑森林拿破仑</div>
+            </div>
+            <div class="col-md-2 col-xs-6 index-product-service-item">
+                <img class="product-banner" src="images/index/banner4.png">
+                <div class="decoration-line"></div>
+                <div class="decoration-description" >鲜莓印雪</div>
+            </div>
+            <div class="col-md-2 col-xs-0 empty"></div>
+        </div>
     </div>
 </div>
 
-<div class="row index-product-list">
-<div class="col-md-2 col-xs-0 empty"></div>
-    <div class="col-md-2 col-xs-6 index-product-service-item">
-    <img class="product-banner" src="images/index/banner1.png">
-        <div class="decoration-line"></div>
-        <div class="decoration-description" >蓝莓轻乳拿破仑</div>
-    </div>
-    <div class="col-md-2 col-xs-6 index-product-service-item">
-    <img class="product-banner" src="images/index/banner2.png">
-        <div class="decoration-line"></div>
-        <div class="decoration-description">柠*漾</div>
-    </div>
-    <div class="col-md-2 col-xs-6 index-product-service-item">
-    <img class="product-banner" src="images/index/banner3.png">
-        <div class="decoration-line"></div>
-        <div class="decoration-description" >黑森林拿破仑</div>
-    </div>
-    <div class="col-md-2 col-xs-6 index-product-service-item">
-        <img class="product-banner" src="images/index/banner4.png">
-        <div class="decoration-line"></div>
-        <div class="decoration-description" >鲜莓印雪</div>
-    </div>
-    <div class="col-md-2 col-xs-0 empty"></div>
-</div>
+
+
+
+
+
 
 
 
@@ -115,13 +234,13 @@
             <figcaption><a href=""></a></figcaption>
             </figure>
         </div>
-        <div class="col-md-3 col-xs-6">
+        <div class="col-md-3 col-xs-6 hidden-xs">
             <figure>
             <img src="images/index/events3.png">
             <figcaption><a href=""></a></figcaption>
             </figure>
         </div>
-        <div class="col-md-3 col-xs-6">
+        <div class="col-md-3 col-xs-6 hidden-xs">
             <figure>
             <img src="images/index/events4.png">
             <figcaption><a href=""></a></figcaption>
@@ -147,8 +266,8 @@
 <!--地址-->
 <address>
     <div class="row">
-        <div class="col-md-3"></div>
-        <div class="col-md-7">
+
+        <div class="col-md-7 col-md-push-3" >
             <div class="information">
                 <p>电话:021-54833405</p>
                 <p>订购专线:400 650 2121(服务时间 8:00-22:00)</p>
@@ -170,6 +289,14 @@
 </address>
 <!--地址 End-->
 
+
+<ul class="toolbar">
+    <li class="btn-back"></li>
+    <li class="btn-go"></li>
+    <li class="btn-flash"></li>
+    <li class="btn-option"></li>
+    <li class="btn-home"></li>
+</ul>
 
 
 <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>

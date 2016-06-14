@@ -25,7 +25,8 @@
         margin: 0;
         width: 100%;
         height: 50px;
-
+        position: fixed;
+        bottom: 0;
     }
     .toolbar li{
         border:none;
@@ -52,5 +53,7 @@
     .btn-home{
         background-position: 103%;
     }
-
+    address{
+        display: none;
+    }
 }
