@@ -15,7 +15,10 @@ body{
 }
 }
 
-
+.pagination a.active {
+  background-color: #461F0B;
+  color:white;
+}
 
 /**导航栏字体**/
 .navbar-nav li a{
@@ -133,7 +136,7 @@ address{
 /**=========================contact-us =========================**/
 
 .contact-us-form{
-  display:-webkit-inline-box;
+  display: inline-block;
   background: url(../images/contact-us/map.png) ;
   width: 100%;
   padding-bottom: 12%;
@@ -334,4 +337,11 @@ float:left;
 
 .carousel-indicators{
   margin-bottom:0;
+}
+
+.pagination  li a{
+  margin-right:20px;
+  border-color: black;
+  color: black;
+}
 }
