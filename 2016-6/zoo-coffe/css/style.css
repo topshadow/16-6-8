@@ -1,4 +1,6 @@
-
+.h3{
+    color:#41220F;
+}
 
 @media screen and (max-device-width:450px) {
     #index_banner .kinMaxShow_image_box {
