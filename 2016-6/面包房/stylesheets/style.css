@@ -69,10 +69,11 @@ body > div > div > div.col-md-1.ative{
   padding-top: 20px;
 }
 
-figure{
+.product-list figure{
   width: 100%;
-  /*padding-bottom: 100%;*/
-  /*background-color:red;*/
+  padding-bottom: 100%;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
 }
 figcaption{
   padding-top: 10px;
